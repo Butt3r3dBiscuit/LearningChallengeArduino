@@ -31,7 +31,7 @@ void loop() {
   Serial.println(" C"); 
 
   T = -24.43d*logR2 + 253.79d;
-  Serial.print("Temperature using Regression: "); 
+  Serial.print("Temperature using Log Regression: "); 
   Serial.print(T);
   Serial.println(" C");
   
